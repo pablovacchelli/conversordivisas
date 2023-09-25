@@ -1,4 +1,5 @@
-let resultado = 0;
+
+    let resultado = 0;
 
 let dolar = 735;
 
@@ -14,4 +15,10 @@ if (divisa = dolar) {
     let resultado = valor/dolar;
     console.log(resultado);
 
+}else if (divisa = euro){
+    let valor = prompt('ingresar cantidad');
+    let resultado = valor/euro;
+    console.log(resultado);
+}else {
+    alert('Error. Intente nuevamente');
 }
